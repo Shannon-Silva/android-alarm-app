@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Alarm System</string>
+    <string name="add">ADD</string>
+    <string name="cancel">CANCEL</string>
+    <string name="select">SELECT</string>
+    <string name="tone">Tone : </string>
+    <string name="main">Click on the Add button to add an alarm!</string>
+    <string name="one">Alarm 1</string>
+    <string name="two">Alarm 2</string>
+    <string name="three">Alarm 3</string>
+    <string name="four">Alarm 4</string>
+    <string name="five">Alarm 5</string>
+    <string-array name="tones">
+        <item>Alarm 1</item>
+        <item>Alarm 2</item>
+        <item>Alarm 3</item>
+        <item>Alarm 4</item>
+        <item>Alarm 5</item>
+    </string-array>
+    <string name="topic">Answer Correctly to stop the Alarm!!!</string>
+
+</resources>

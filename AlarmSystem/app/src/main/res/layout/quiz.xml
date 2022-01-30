@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:background="@drawable/backg"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/topic"
+        android:layout_width="271dp"
+        android:layout_height="64dp"
+        android:text="@string/topic"
+        android:textAlignment="center"
+        android:textColor="@color/green"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/questionTxt"
+        android:layout_width="277dp"
+        android:layout_height="132dp"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="Sample Question ??"
+        android:textAlignment="center"
+        android:textColor="@color/green"
+        android:textSize="24sp"
+        android:typeface="serif" />
+
+    <RadioGroup
+        android:id="@+id/group"
+        android:layout_width="270dp"
+        android:layout_height="159dp">
+
+        <RadioButton
+            android:id="@+id/option1"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:checked="true"
+            android:gravity="center"
+            android:text="option1"
+            android:textAlignment="center"
+            android:textColor="@color/green" />
+
+        <RadioButton
+            android:id="@+id/option2"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:checked="true"
+            android:gravity="center"
+            android:text="option2"
+            android:textAlignment="center"
+            android:textColor="@color/green" />
+
+        <RadioButton
+            android:id="@+id/option3"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:checked="true"
+            android:gravity="center"
+            android:text="option3"
+            android:textAlignment="center"
+            android:textColor="@color/green" />
+
+        <RadioButton
+            android:id="@+id/option4"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:checked="true"
+            android:gravity="center"
+            android:text="option4"
+            android:textAlignment="center"
+            android:textColor="@color/green"
+            android:textColorLink="@color/green" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/check"
+        android:layout_width="183dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorAccent"
+        android:padding="10dp"
+        android:text="CHECK"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+</LinearLayout>
